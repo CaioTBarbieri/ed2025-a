@@ -56,7 +56,6 @@ public class JogoDaVelha {
         return 0; 
     }
 
-    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder(); // usei esse string builder porque é melhor pra mostrar o resultado
         for (int i = 0; i < tamanho; i++) {
